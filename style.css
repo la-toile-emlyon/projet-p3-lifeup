@@ -13,8 +13,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 /*--------------------------------------------------
 🤖 Variables
 ----------------------------------------------------*/
@@ -26,10 +24,6 @@ html {
   --white: #fff;
   --grey: #222020;
   --light-grey: #aaa;
-}
-
-.bgRed {
-  background-color: red;
 }
 
 /*--------------------------------------------------
@@ -106,6 +100,10 @@ html {
 
 .marginT70 {
   margin-top: 70px;
+}
+
+.marginT200 {
+  margin-top: 200px;
 }
 
 /*--------------------------------------------------
@@ -335,8 +333,6 @@ a {
   border-radius: 39px;
   background: #A02A54;
   padding: 10px 20px 10px 20px;
-
- 
 }
 
 .btn-primary {
@@ -357,93 +353,27 @@ a {
   border: 2px solid var(--grey);
 }
 
-
-
 /*--------------------------------------------------
-🎓Header
+background
 ---------------------------------------------------*/
-
-header {
-  position: sticky;
-  justify-content: flex-end;
-  padding: 30px;
-
-  a,
-  li {
-    color: white;
-  }
+.bgRed {
+  background-color: red;
 }
 
-ul{
-  align-items: center;
-}
-
-
-
-/*--------------------------------------------------
-Hero
----------------------------------------------------*/
 body {
   background-color: var(--grey);
 }
 
-.hero {
-  background-image: url(assets/etoilesbg.png);
-  background-size: cover;
-  background-color: var(--grey);
-
-
-  text-align: center;
-  height: 100vh;
-  overflow: hidden;
-
-  h1,
-  h2 {
-    color: white;
-    text-align: center;
-
-  }
-
-}
-
-.bgLune {
-  background-image: url(assets/Lune_ico\ 2.png);
+.bgRobot {
+  background-image: url(assets/robottest.png);
+  background-position: bottom right;
+  background-size: 50%;
   background-repeat: no-repeat;
-  height: 100vh;
-  background-position: 50% -80%;
 }
 
-.icon {
-  margin-top: 64px;
-
-  img {
-    margin: 20px;
-  }
-}
-
-
-.content {
-  max-width: 1200px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  /*vous pouvez enlever le padding si il vous gene*/
-  padding: 16px;
-
-
-  h3 {
-    font-size: 36px;
-    color: var(--secondary);
-  }
-
-  p {
-    font-size: 18px;
-    color: white;
-  }
-}
-
-
-/* Anim fusée */
+/*--------------------------------------------------
+Anim fusée
+---------------------------------------------------*/
 
 .scrolling {
 
@@ -456,7 +386,7 @@ body {
 }
 
 .inner-scrolling {
-background-color: var(--secondary);
+  background-color: var(--secondary);
   height: 8px;
   position: relative;
 
@@ -493,4 +423,105 @@ footer {
   transform: translateX(-50%);
   bottom: 0px;
   padding: 16px 0;
+}
+
+
+
+
+/*--------------------------------------------------
+🎓Header
+---------------------------------------------------*/
+
+header {
+  position: fixed;
+  justify-content: flex-end;
+  padding: 30px;
+  width: 100%;
+
+  a,
+  li {
+    color: white;
+  }
+}
+
+ul {
+  align-items: center;
+}
+
+
+
+/*--------------------------------------------------
+Hero
+---------------------------------------------------*/
+
+.hero {
+  background-image: url(assets/etoilesbg.png);
+  background-size: cover;
+  background-color: var(--grey);
+
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+
+  h1,h2 {
+    color: white;
+    text-align: center;
+
+  }
+}
+
+/* BgLune */
+.bgLune {
+  background-image: url(assets/LuneBG.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: 50% -80%;
+}
+
+
+/* Icon telecharger */
+.icon {
+  margin-top: 64px;
+
+  img {
+    margin: 20px;
+  }
+}
+
+/* Section content */
+.content {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+
+  h3 {
+    font-size: 36px;
+    color: var(--secondary);
+  }
+
+  p {
+    font-size: 18px;
+    color: white;
+  }
+}
+
+
+
+
+
+.robot {
+  margin-left: 50px;
+}
+
+
+
+
+
+.avis {
+  background-image: url(assets/Bouclier.png);
+  background-position: bottom;
+  background-size: 50%;
+  background-repeat: no-repeat;
 }

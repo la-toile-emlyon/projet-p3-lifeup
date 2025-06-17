@@ -1,0 +1,36 @@
+.lateral{
+    width: 25%;
+    nav{
+        background-color: red;
+    }
+
+    background-color: #696969;
+}
+.content{
+    width: 75%;
+    background-color: #adadad;
+}
+
+.margin200{
+    margin-top: 200px;
+}
+
+.margin50{
+    margin-top: 50px;
+}
+
+.marginbottom110{
+    margin-bottom: 110px;
+}
+
+.text{
+    font-size:80px;
+}
+
+.size100{
+    font-size:100px;
+}
+
+.size50{
+    font-size: 50px;
+}
