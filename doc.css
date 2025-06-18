@@ -1,1 +1,102 @@
-/* Le code CSS spécifique à la page de documentation */
+/* color background*/
+html{
+    scroll-behavior: smooth;
+}
+.lateral {
+    width: 25%;
+
+    nav {
+        background-color: red;
+    }
+
+    background-color: #696969;
+}
+
+.content {
+    width: 75%;
+    background-color: #adadad;
+}
+
+/* margin et padding */
+
+.margin200 {
+    margin-top: 200px;
+}
+
+.margin50 {
+    margin-top: 50px;
+}
+
+.marginbottom110 {
+    margin-bottom: 110px;
+}
+
+.margin30 {
+    margin-top: 30px;
+}
+
+.margin40 {
+    margin-top: 40px;
+}
+
+.margin50{
+    margin-top: 50px;
+}
+
+.margin10{
+    margin-top: 10px;
+}
+
+.margin80{
+    margin-top: 80px;
+}
+.padding20 {
+    padding-right: 30px;
+}
+
+.padding50{
+    padding-left: 50px;
+}
+
+/* font size*/
+
+.text {
+    font-size: 80px;
+}
+
+.size100 {
+    font-size: 100px;
+}
+
+.size65{
+    font-size:65px !important;
+}
+
+/* img*/
+
+.W20{
+    width:20%;
+}
+
+/*color text*/
+
+.Whitecolor{
+    color:#ffff;
+}
+
+.retour{
+/*white-space: pre-line;*/
+width: 70%;
+}
+
+
+
+/*Css nico*/
+
+.content{
+    section{
+        h3{
+            font-size: 32px;
+        }
+    }
+}
