@@ -14,8 +14,8 @@
   <header class="flex alignEnd">
     <nav class="large-6 small-12">
       <ul class="flex gap">
-        <li><a href="">ACCUEIL</a></li>
-        <li><a href="index.html">DOCUMENTATION</a></li>
+        <li><a href="index.html">ACCUEIL</a></li>
+        <li><a href="">DOCUMENTATION</a></li>
         <li><a href="">AVIS</a></li>
         <li><a href="">JEUX</a></li>
         <li class="btn"><a href="">Connexion</a></li>
@@ -24,16 +24,25 @@
   </header>
   <div class="flex">
     <div class="lateral">
-      <nav class="menu-sticky"></nav>
+      <nav class="menu-sticky">
+        <ul>
+          <li><a href="#problematique">Problématique</a></li>
+          <li><a href="#pourqui">Pour qui ?</a></li>
+          <li><a href="#utilisateur">Utilisateur Type</a></li>
+          <li><a href="#solution">Solution</a></li>
+          <li><a href="#test">Tests utilisateurs</a></li>
+          <li><a href="#evolution">Perspective d'évolution</a></li>
+          <li><a href="#application">Application</a></li>
+        </ul>
+      </nav>
     </div>
     <!-- Le contenu de la page de doc -->
     <div class="content">
-      <section>
+     
         <!---section contexte-->
         <section class="marginbottom110">
           <div class="flex justify-center">
             <h2 class="margin200 text Whitecolor ">Documentation</h2>
-
           </div>
           <div class="flex justify-center">
             <p>
@@ -42,19 +51,18 @@
             </p>
           </div>
 
-          <div class="marginT70">
-            <h3 class="size85">Contexte</h3>
+          <div class="margin200">
+            <h3>Contexte</h3>
           </div>
 
-          <div class="margin50 container">
+          <div class="retour">
             <p>
               L’inclusion numérique désigne le processus par lequel il est
               possible de rendre le numérique accessible à 
-               Il s’agit
-              alors de transmettre les compétences nécessaires aux individus
+               Il s’agit alors de transmettre les compétences nécessaires aux individus
               en étant éloignés, afin que le digital devienne pour eux un
-              levier d’insertion sociale et économique. Aujourd’hui, 3
-              Français sur 5 se disent incapables de réaliser des démarches
+              levier d’insertion sociale et économique.
+               Aujourd’hui, 3Français sur 5 se disent incapables de réaliser des démarches
               administratives en ligne et plus de 19 % des Français âgés de
               plus de 15 ans sont en situation d’illectronisme d’après
               l’INSEE..
@@ -63,9 +71,9 @@
         </section>
         <!--- section Problématique-->
 
-        <section class="margin200">
-          <h3 class="size85">Problématique</h3>
-          <div class="marginT70 container">
+        <section class="margin200" id="problematique">
+          <h3>Problématique</h3>
+          <div class="retour">
             <!-- paragraphe Problématique-->
             <p>
               Comment soutenir Léo dans le développement de son autonomie et
@@ -84,9 +92,9 @@
         </section>
 
         <!-- section Pour qui ?-->
-        <section class="margin200">
-          <h3 class="size50">Pour qui ?</h3>
-          <div class="marginT70 container">
+        <section class="margin200" id="pourqui">
+          <h3>Pour qui ?</h3>
+          <div class="container retour">
             <p>
               Notre application / serious game s’adresse aux jeunes de 16 à 25
               ans qui démarrent dans la vie active , qui ont besoin d’un
@@ -106,44 +114,17 @@
         </section>
 
         <!-- section utilisateur type -->
-        <section class="margin200">
-          <h3 class="size50">Utilisateur type</h3>
-          <div>
-            <!-- partie de gauche-->
-            <img src="asset document/Gemini_Generated_Image_4y44r24y44r24y44 1.png" alt="photo léo" width="20%">
-            <p>Léo, 22 ans </p>
-            <p>Titulaire d’un BTS
-              Locataire pour la 1ere fois </p>
-          </div>
-
-          <!-- partie de droite -->
-          <div>
-            <p> :
-              Léo est un jeune actif , il vient d’emmenager dans son 1er appartement mais ne connait rien en démarche
-              administrative.
-
-              Ses peurs?
-
-              Ne pas reussir a remplir correctement ses demandes administratives.
-            </p>
-          </div>
-
-          <div class="flex justify-center margin30">
-            <p>Ses passions </p>
-            <div class="margin40 flex justify-center ">
-            <img src="asset document/Gemini_Generated_Image_4gueek4gueek4gue 1.png" class="padding20" alt="image chien" width="15%">
-            <img src="asset document/Gemini_Generated_Image_vxf7ghvxf7ghvxf7 1.png" class="padding20" alt="image F1" width="15%">
-            <img src="asset document/Gemini_Generated_Image_9kdwog9kdwog9kdw 1.png" alt="image mannete" width="15%">
-            </div>
-          </div>
-
+        <section class="margin200" id="utlisateur">
+          <h3>Utilisateur type</h3>
+         
+          <!-- ici l'image de l'utlisateur type -->
         </section>
 
         <!---Section solution-->
 
-        <section class="margin200">
+        <section class="margin200" id="solution">
           <h3>Solution </h3>
-          <div class="container">
+          <div class="container retour">
             <p>
               Créer un serious game permettant à Léo d’avoir les connaissances nécessaires avant de faire ses démarches
               administratives.
@@ -155,14 +136,10 @@
             </p>
           </div>
 
-          <div class="container">
-            <p> Notre tranche d'âge étant de 16 à 25ans, le jeu vidéo est présent dans la vie de tous les jours , cela
-              apporte
+          <div class="container retour">
+            <p> Notre tranche d'âge étant de 16 à 25ans, le jeu vidéo est présent dans la vie de tous les jours , cela apporte
               un aspect rassurant à notre utilisateur.
-
-
               Grace à notre application sous forme de mini jeu , il développe son autonomie.
-
               Quant à notre forum , il lui permet un accès à volonté à des questions réponses avec d’autres
               utilisateurs.
             </p>
@@ -173,9 +150,9 @@
 
         <section class="margin200">
           <div>
-            <h3 class="size50"> User flow</h3>
+            <h3> User flow</h3>
           </div>
-          <div class="container">
+          <div class="container retour">
             <p>
               Léo 22 ans fraichement diplomé d’un bts rentre dans la vie active avec son premier appartement . Il doit
               faire une demande d’APL , ne sachant pas faire il décide d’ouvrir son application LIFEUP pour en savoir
@@ -191,8 +168,8 @@
 
         <!--Section Wireframe-->
         <section class="margin200">
-          <h3 class="size50">Wireframe</h3>
-          <div class="container">
+          <h3>Wireframe</h3>
+          <div class="container retour">
             <p>
               C’est une représentation schématique de la structure et des fonctionnalités d’une application mobile ou
               d’un site web. Dessinées sur papier ou de manière numérique, ces maquettes offrent un degré
@@ -211,8 +188,8 @@
 
         <!--Section mid-fi -->
         <section class="margin200">
-          <h3 class="size50">Mid-fi</h3>
-          <div class="container">
+          <h3>Mid-fi</h3>
+          <div class="container retour">
             <p>
               Pour arriver au résultat final de notre application nous avons commencé par mettre en commun toutes les
               idées auxquelles nous avons pensées, et c'est de cette manière que nous nous sommes dirigés vers le
@@ -231,7 +208,7 @@
         <!--Section high fi-->
 
         <section class="margin200">
-          <h3 class="size50">High-fi</h3>
+          <h3>High-fi</h3>
           <div class="flex justify-between">
             <img src="asset document/acceuil high fi 1-1.png" alt="Acceuil high fi" class="W20">
             <img src="asset document/didactoriel high fki 1.png" alt="dicatoriel high fi" class="W20">
@@ -241,15 +218,15 @@
         </section>
 
         <!--Section Test utilisateur-->
-        <section class="margin200">
-          <h3 class="size50">Tests utilisateurs</h3>
-          <div class="container">
+        <section class="margin200" id="test">
+          <h3>Tests utilisateurs</h3>
+          <div class="container retour">
             <p>Suite aux avis des personnes que l'on a interrogé sur le déroulé et l'esthétique de notre application,
               voici les modifications que nous avons apportés :
             </p>
           </div>
 
-          <div class="container">
+          <div class="container retour">
             <p>Amélioration 1: Revoir l’accueil pour rendre l’objectif clair dès les premières secondes.</p>
           </div>
           <div>
@@ -257,74 +234,66 @@
             <img src="asset document/acceuil high fi 1.png" alt="Acceuil hig fi après">
           </div>
         </section>
-<!--section Test Utilisateur 2-->
+
         <section class="margin200">
 
         <h3 class="size50">Test utlisateur</h3>
-        <div>
-          <p>Amélioration 2: Dans l'inventaire nos utilisateurs ont trouvés que les cases étaient trop 
-petites. 
-Nous avons donc fait le choix de les mettre 3 par ligne afin de gagner en visibilité.</p>
+        <div class="retour">
+          <p>Amélioration 2: Dans l'inventaire nos utilisateurs ont trouvés que les cases étaient trop petites. Nous avons donc fait le choix de les mettre 3 par ligne afin de gagner en visibilité.</p>
         </div>
         <div>
-          <img src="assets/inventaire_avant-test.png" alt=" Inventaire avant test">
-          <img src="assets/inventaire_après_test.png" alt="inventaire après test">
+          <img src="asset document/inventaire high gi 1-1.png" alt=" Inventaire avant test">
+          <img src="asset document/inventaire high gi 1.png" alt="inventaire après test">
           
         </div>
         </section>
-        <!--section Test Utilisateur 3-->
-        <section>
-        <h3 class="size50">Tests utilisateurs</h3>
-        <div>
+    
+        <div class="retour">
           <p>Amélioration 3:  Le niveau 3 n’étant pas présent l’utilisateur ne connaisait pas son
  niveau dans le jeux. 
 Nous avons donc décidé de l’integrer sur chaque page en face de l’XP de notre 
 personnage.</p>
 </div>
 <div>
-  <img src="assets/Xp_avant_ test_utilisateurs.png" alt=" Xp avant test" class="W20">
-  <img src="assets/Xp_et_niveau_après_test.png" alt="xp et niveau après test" class="W20">
+  <img src="asset document/Xp avant  1.png" alt=" Xp avant test" class="W20">
+  <img src="asset document/xp et niveau personnage 1.png" alt="xp et niveau après test" class="W20">
 </div>
 
  </section>
           
-       <!--section perspective d'évolution-->
-       <section>
-<div>
-        <p>Dans un futur certain et suivant la levée de fonds, nous aimerions y ajouter quelques fonctionnalités supplémentaires, telles que :
+       <!--section perspective d'Evolution-->
+       <h3></h3>
+  <section class="margin200" id="evolution">
+        <div class="retour">
+        <p>Dans un futur certain et suivant la levée de fonds, nous aimerions y ajouter quelques fonctionnalités supplémentaires, telles que :</p>
 
-<p>Ajouter de nouvelles missions / planètes:</p>
+        <p>Ajouter de nouvelles missions / planètes:</p>
 
-<p>Imposia  pour comprendre les impôts (jeunes en alternance ou CDD)
-Emploix: démarches Pôle emploi, CV, inscriptions </p>
-</div>
-<div>
-  <img src="asset document/" alt="Iimage clé" class="W20">
-  <img src="asset document/Jupiter-PNG.png" alt="Image planète "class="W20">
-  <img src="asset document/capture document modif  1.png" alt="Image forum "class="W20">
+        <p>Imposia  pour comprendre les impôts (jeunes en alternance ou CDD)
+          Emploix: démarches Pôle emploi, CV, inscriptions </p>
+          </div>
+          <div>
+  
+            <img src="asset document/Jupiter-PNG.png" alt="Image planète "class="W20">
+            <img src="asset document/Gemini_Generated_Image_29zg4229zg4229zg 1.png" alt="Image forum "class="W20">
 
-</div>
-<p>Renforcer le forum  et la cohésion communautaire</p>
+          </div>
+          <p>Renforcer le forum et la cohésion communautaire</p>
        </section>
    <!--Section Application -->
-        </section>
-       <div>
+       <section>
+        <div>
         <a href="https://www.figma.com/proto/c7WBvIUob6cpUJ506GFNCH/Projet-Life-UP---Amelie-Lila-Elias?node-id=1-20562&t=HGdwfac8g4Sp7hyK-1"></a>
-</div>
+      </div>
 
-<div>
-  <img src="assets/bot_.png" alt="Bot">
-</div>
-
-  <script src="script.js"></script>
-</body>
-
-</html>
+      <div class="flex justify-end">
+        <img src="assets/robottest.png" alt="Bot" class="large-4">
+      </div>
 
       </section>
     </div>
   </div>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 
 </html>

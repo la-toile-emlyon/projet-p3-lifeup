@@ -65,7 +65,9 @@ html {
 .reverse {
   flex-direction: row-reverse;
 }
-
+.justify-end{
+  justify-content: flex-end;
+}
 .justify-between {
   justify-content: space-between;
 }
@@ -96,6 +98,10 @@ html {
 
 .gap {
   gap: var(--gap);
+}
+
+.marginT20{
+  margin-top: 20px;
 }
 
 .marginT70 {
@@ -437,6 +443,7 @@ header {
   justify-content: flex-end;
   padding: 30px;
   width: 100%;
+  z-index: 999;
 
   a,
   li {
@@ -546,14 +553,42 @@ Hero
 .email{
   background-color: #666;
   padding: 30px;
-  color: #ffffff;
+  color: #E7F3E9;
+  border-radius: 5px;
 }
 
 .souscrire{
   padding: 10px;
   background-color: #611D35;
+  p{
+    font-size: 16px;
+  }
 }
 
 .Souscrivez{
-  align-items: center;
+ margin-right: 20px;
+ align-items: center;
+ display: flex;
+
+ h3{
+  color: #E7F3E9;
+  font-size: 16px;
+ }
+}
+
+.aPropos{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  p{
+    color: white;
+  }
+}
+
+.term{
+
+  p{
+    color: white;
+    font-size: 10px;
+  }
 }

@@ -1,5 +1,7 @@
 /* color background*/
-
+html{
+    scroll-behavior: smooth;
+}
 .lateral {
     width: 25%;
 
@@ -37,9 +39,23 @@
     margin-top: 40px;
 }
 
+.margin50{
+    margin-top: 50px;
+}
 
+.margin10{
+    margin-top: 10px;
+}
+
+.margin80{
+    margin-top: 80px;
+}
 .padding20 {
     padding-right: 30px;
+}
+
+.padding50{
+    padding-left: 50px;
 }
 
 /* font size*/
@@ -52,8 +68,8 @@
     font-size: 100px;
 }
 
-.size85{
-    font-size: 85px;
+.size65{
+    font-size:65px !important;
 }
 
 /* img*/
@@ -66,4 +82,21 @@
 
 .Whitecolor{
     color:#ffff;
+}
+
+.retour{
+/*white-space: pre-line;*/
+width: 70%;
+}
+
+
+
+/*Css nico*/
+
+.content{
+    section{
+        h3{
+            font-size: 32px;
+        }
+    }
 }
