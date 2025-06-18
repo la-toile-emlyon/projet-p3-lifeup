@@ -280,15 +280,15 @@ h6 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 24px;
 }
 
 h2 {
-  font-size: 128px;
+  font-size: 100px;
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 24px;
 }
 
 h4 {
@@ -458,12 +458,13 @@ Hero
   background-image: url(assets/etoilesbg.png);
   background-size: cover;
   background-color: var(--grey);
-
+  margin-top: 150px;
   text-align: center;
   height: 100vh;
   overflow: hidden;
 
-  h1,h2 {
+  h1,
+  h2 {
     color: white;
     text-align: center;
 
@@ -475,7 +476,7 @@ Hero
   background-image: url(assets/LuneBG.png);
   background-repeat: no-repeat;
   height: 100vh;
-  background-position: 50% -80%;
+  background-position: 50% -40%;
 }
 
 
@@ -497,18 +498,15 @@ Hero
   padding: 16px;
 
   h3 {
-    font-size: 36px;
+    font-size: 30px;
     color: var(--secondary);
   }
 
   p {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
   }
 }
-
-
-
 
 
 .robot {
@@ -516,12 +514,46 @@ Hero
 }
 
 
+.avis{
+  background-color: rgba(255, 255, 255, 0.105);
+  padding: 20px;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  h4{
+    color: var(--secondary);
+  }
+  p{
+    color: white;
+  }
+}
+
+
+.sectionAvis{
+  h3{
+    color: var(--secondary);
+  }
+}
 
 
 
-.avis {
-  background-image: url(assets/Bouclier.png);
-  background-position: bottom;
-  background-size: 50%;
-  background-repeat: no-repeat;
+.newLetter{
+  background-color: white;
+  padding: 80px; background-color: rgba(255, 255, 255, 0.105);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+}
+
+.email{
+  background-color: #666;
+  padding: 30px;
+  color: #ffffff;
+}
+
+.souscrire{
+  padding: 10px;
+  background-color: #611D35;
+}
+
+.Souscrivez{
+  align-items: center;
 }

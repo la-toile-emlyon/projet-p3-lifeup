@@ -1,49 +1,69 @@
+/* color background*/
 
-
-/* color background*/ 
-
-.lateral{
+.lateral {
     width: 25%;
-    nav{
+
+    nav {
         background-color: red;
     }
 
     background-color: #696969;
 }
-.content{
+
+.content {
     width: 75%;
     background-color: #adadad;
 }
 
+/* margin et padding */
 
-/* margin */ 
-
-.margin200{
+.margin200 {
     margin-top: 200px;
 }
 
-.margin50{
+.margin50 {
     margin-top: 50px;
 }
 
-.marginbottom110{
-    margin-bottom: 110px;}
-
-
-
-
-/* font size*/ 
-
-.text{
-    font-size:80px;
+.marginbottom110 {
+    margin-bottom: 110px;
 }
 
-.size100{
-    font-size:100px;
+.margin30 {
+    margin-top: 30px;
 }
 
-.size50{
-    font-size: 50px;
+.margin40 {
+    margin-top: 40px;
 }
 
-/* color texte*/
+
+.padding20 {
+    padding-right: 30px;
+}
+
+/* font size*/
+
+.text {
+    font-size: 80px;
+}
+
+.size100 {
+    font-size: 100px;
+}
+
+.size85{
+    font-size: 85px;
+}
+
+/* img*/
+
+.W20{
+    width:20%;
+}
+
+/*color text*/
+
+.Whitecolor{
+    color:#ffff;
+}
