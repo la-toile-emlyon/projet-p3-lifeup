@@ -1,20 +1,67 @@
 /* color background*/
-html{
+
+/*
+:root {
+  --gap: 32px;
+  --primary: #111;
+  --secondary: #A02A54;
+  --black: #000;
+  --white: #fff;
+  --grey: #222020;
+  --light-grey: #aaa;
+}
+*/
+/*
+
+.darkmode{
+    --primary: #111;
+    --secondary: #A04;
+    --black: #000;
+    --white: #fff;
+    --grey: #222020;
+    --light-grey: #aaa;
+}*/
+
+body {
+    background-color: var(--grey);
+}
+
+html {
     scroll-behavior: smooth;
 }
+
 .lateral {
-    width: 25%;
+    width: 23%;
 
     nav {
-        background-color: red;
+        width: 80%;
+        left: 16px;
+        background-color: #ffffff1c;
+        backdrop-filter: blur(12px);
+        position: sticky;
+        top: 64px;
+        padding: 16px;
+        border-radius: 16px;
+
+        li {
+            margin-bottom: 16px;
+
+            a {
+                color: #fff;
+            }
+
+            a:hover {
+                color: var(--secondary);
+            }
+        }
     }
 
-    background-color: #696969;
+
 }
 
 .content {
     width: 75%;
-    background-color: #adadad;
+
 }
 
 /* margin et padding */
@@ -31,7 +78,7 @@ html{
     margin-bottom: 110px;
 }
 
-.margin30 {
+.marginT30 {
     margin-top: 30px;
 }
 
@@ -39,22 +86,23 @@ html{
     margin-top: 40px;
 }
 
-.margin50{
+.margin50 {
     margin-top: 50px;
 }
 
-.margin10{
+.margin10 {
     margin-top: 10px;
 }
 
-.margin80{
+.margin80 {
     margin-top: 80px;
 }
+
 .padding20 {
     padding-right: 30px;
 }
 
-.padding50{
+.padding50 {
     padding-left: 50px;
 }
 
@@ -68,35 +116,45 @@ html{
     font-size: 100px;
 }
 
-.size65{
-    font-size:65px !important;
+.size65 {
+    font-size: 65px !important;
 }
 
 /* img*/
 
-.W20{
-    width:20%;
+.W20 {
+    width: 20%;
 }
 
 /*color text*/
 
-.Whitecolor{
-    color:#ffff;
+.Whitecolor {
+    color: #ffff;
 }
 
-.retour{
-/*white-space: pre-line;*/
-width: 70%;
+.retour {
+    /*white-space: pre-line;*/
+    width: 70%;
 }
 
 
 
 /*Css nico*/
 
-.content{
-    section{
-        h3{
+.content {
+    section {
+        h3 {
             font-size: 32px;
         }
     }
+}
+
+.bg-lune2 {
+    background-image: url(asset\ document/planeteDoc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+ p{
+    color: #fff !important;
+  }
 }
