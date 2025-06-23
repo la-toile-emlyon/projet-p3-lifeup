@@ -1,3 +1,5 @@
+AOS.init();
+
 let sc = document.querySelector(".inner-scrolling")
 sc.style.width = 0+"px"
 

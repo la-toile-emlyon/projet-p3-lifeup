@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width" />
   <title>Projet - Page d'accueil</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -14,10 +16,10 @@
   <header class="flex alignEnd">
     <nav class="small-12">
       <ul class="flex gap">
-        <li><a href="">JEUX</a></li>
+        <li><a href="doc.html">DOCUMENTATION</a></li>
         <li><a href="">AVIS</a></li>
-        <li><a href="doc.html">DOC</a></li>
-        <li class="btn"><a href="">Connexion</a></li>
+        <li><a href="">JEUX</a></li>
+        <li class="btn"><a href="">CONNEXION</a></li>
       </ul>
     </nav>
   </header>
@@ -48,11 +50,11 @@
     <!-- section Parcours -->
     <section class="content flex align-center marginT70">
 
-      <div class="large-6 small-12">
+      <div class="large-6 small-12" data-aos="fade-right" data-aos-duration="1500">
         <img class="responsive" src="assets/mockup.png" alt="">
       </div>
 
-      <div class="large-6 small-12">
+      <div class="large-6 small-12" data-aos="fade-left" data-aos-duration="1500">
         <h3>Un parcours unique a travers <br> l'espace de l’administration</h3>
         <p>Explores de nouveaux horizons, <br> découvres et apprends, gagnes des <br> équipements!</p>
       </div>
@@ -63,13 +65,13 @@
     <!-- section Mini-Jeu -->
     <section class="content flex align-center marginT70">
 
-      <div class="large-6 small-12">
+      <div class="large-6 small-12" data-aos="fade-right" data-aos-duration="1500">
         <h3>Des mini jeux pour que l’univers de l’administratif n’est plus de secret pour toi !</h3>
         <p>Tout savoir sur l’administration française, en t’amusant.
           Réalises des missions ,augmentes ton XP et gagnes en niveau !</p>
       </div>
 
-      <div class="large-6 small-12">
+      <div class="large-6 small-12" data-aos="fade-left" data-aos-duration="1500">
         <img class="responsive" src="assets/tinder.png" alt="">
       </div>
 
@@ -78,11 +80,11 @@
     <!-- section Coffre & Robot -->
     <section class="content flex marginT70 bgRobot">
 
-      <div class="large-6 small-12">
+      <div class="large-6 small-12" data-aos="fade-right" data-aos-duration="1500">
         <img class="responsive" src="assets/coffreNumerique.png" alt="">
       </div>
 
-      <div class="large-6 small-12 marginT200">
+      <div class="large-6 small-12 marginT200" data-aos="fade-left" data-aos-duration="1500">
         <h3>Le coffre numérique , ton outils indispensable pour retrouver tes documents facilement</h3>
         <p>grâce à moi Proton , tes dossiers sont en sécurités ! Plus besoin de chercher durant des heures pour trouver
           1 dossier</p>
@@ -97,7 +99,6 @@
 
     <!-- section Avis -->
     <section class="marginT70 container-1000 sectionAvis">
-
 
       <div class="large-6 small-12">
         <h3>Nos explorateurs en parlent le mieux</h3>
@@ -143,34 +144,16 @@
     </div>
 
 
-
-
-
-
-
-
-
-
-
   </main>
 
   <!-- Footer -->
 
   <footer class="container-1000 marginT70">
-    <div class="flex newLetter">
-      <div class="Souscrivez">
-        <h3>
-          Souscrivez à notre Newsletters
-        </h3>
-      </div>
-      <div class="flex justify-between email">
-        <input type="Entrer votre email" name="" id="">
-        <div class="souscrire">
-          <p class="align-center">
-            Souscrire maintenant
-          </p>
-        </div>
-      </div>
+
+    <div class="icon flex justify-center">
+      <h2 class="large-12 flex justify-center">Prêt à nous rejoindre dans l'aventure ?</h2>
+      <img src="assets/iconApple.svg" alt="telecharger sur l'app store">
+      <img src="assets/iconGoogle.svg" alt="telecharger sur google play">
     </div>
 
 
@@ -181,7 +164,7 @@
       <p>Documentation</p>
     </div>
 
-    
+
     <div class="marginT20 flex justify-between term">
       <p>
         © 2025 LifeUp. All rights reserved.

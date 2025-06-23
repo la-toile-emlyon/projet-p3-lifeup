@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
+
 /* Reset */
 * {
   margin: 0;
@@ -420,6 +421,12 @@ footer {
   height: 400px;
 }
 
+h2{
+  font-family: "Space Grotesk", sans-serif;
+  color: var(--secondary);
+  font-size: 34px;
+}
+
 .glass {
   background-color: #ffffff1c;
   backdrop-filter: blur(12px);
@@ -429,6 +436,7 @@ footer {
   transform: translateX(-50%);
   bottom: 0px;
   padding: 16px 0;
+  z-index: 999;
 }
 
 
@@ -476,16 +484,17 @@ Hero
   background-image: url(assets/etoilesbg.png);
   background-size: cover;
   background-color: var(--grey);
-  margin-top: 150px;
+  
   text-align: center;
   height: 100vh;
   overflow: hidden;
+  padding-top: 50px;
 
   h1,
   h2 {
     color: white;
     text-align: center;
-
+    padding-top: 50px;
   }
 }
 
@@ -495,7 +504,7 @@ Hero
   background-repeat: no-repeat;
   height: 100vh;
   background-position: 50% -40%;
- 
+ background-attachment: fixed;
   
 }
 
@@ -605,3 +614,4 @@ Hero
     font-size: 10px;
   }
 }
+

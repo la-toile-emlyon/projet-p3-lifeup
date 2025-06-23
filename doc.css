@@ -98,6 +98,8 @@ html {
     margin-top: 80px;
 }
 
+.marginB20
+{margin-bottom: 20px;}
 .padding20 {
     padding-right: 30px;
 }
@@ -138,6 +140,9 @@ html {
 }
 
 
+.bold{
+    font-weight: bold;
+}
 
 /*Css nico*/
 
