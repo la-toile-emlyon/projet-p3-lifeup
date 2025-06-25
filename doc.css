@@ -134,6 +134,11 @@ html {
     color: #ffff;
 }
 
+h4,h5{
+    color: white;
+    font-weight: bold;
+}
+
 .retour {
     /*white-space: pre-line;*/
     width: 70%;
