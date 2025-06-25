@@ -39,7 +39,7 @@ html {
         background-color: #ffffff1c;
         backdrop-filter: blur(12px);
         position: sticky;
-        top: 64px;
+        top: 128px;
         padding: 16px;
         border-radius: 16px;
 
@@ -168,3 +168,8 @@ h4,h5{
     color: #fff !important;
   }
 }
+
+li {
+    color: white !important;
+}
+
