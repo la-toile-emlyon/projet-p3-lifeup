@@ -1,1 +1,175 @@
-/* Le code CSS spécifique à la page de documentation */
+/* color background*/
+
+/*
+:root {
+  --gap: 32px;
+  --primary: #111;
+  --secondary: #A02A54;
+  --black: #000;
+  --white: #fff;
+  --grey: #222020;
+  --light-grey: #aaa;
+}
+*/
+/*
+
+.darkmode{
+    --primary: #111;
+    --secondary: #A04;
+    --black: #000;
+    --white: #fff;
+    --grey: #222020;
+    --light-grey: #aaa;
+}*/
+
+body {
+    background-color: var(--grey);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.lateral {
+    width: 23%;
+
+    nav {
+        width: 80%;
+        left: 16px;
+        background-color: #ffffff1c;
+        backdrop-filter: blur(12px);
+        position: sticky;
+        top: 128px;
+        padding: 16px;
+        border-radius: 16px;
+
+        li {
+            margin-bottom: 16px;
+
+            a {
+                color: #fff;
+            }
+
+            a:hover {
+                color: var(--secondary);
+            }
+        }
+    }
+
+
+}
+
+.content {
+    width: 75%;
+
+}
+
+/* margin et padding */
+
+.margin200 {
+    margin-top: 200px;
+}
+
+.margin50 {
+    margin-top: 50px;
+}
+
+.marginbottom110 {
+    margin-bottom: 110px;
+}
+
+.marginT30 {
+    margin-top: 30px;
+}
+
+.margin40 {
+    margin-top: 40px;
+}
+
+.margin50 {
+    margin-top: 50px;
+}
+
+.margin10 {
+    margin-top: 10px;
+}
+
+.margin80 {
+    margin-top: 80px;
+}
+
+.marginB20
+{margin-bottom: 20px;}
+.padding20 {
+    padding-right: 30px;
+}
+
+.padding50 {
+    padding-left: 50px;
+}
+
+/* font size*/
+
+.text {
+    font-size: 80px;
+}
+
+.size100 {
+    font-size: 100px;
+}
+
+.size65 {
+    font-size: 65px !important;
+}
+
+/* img*/
+
+.W20 {
+    width: 20%;
+}
+
+/*color text*/
+
+.Whitecolor {
+    color: #ffff;
+}
+
+h4,h5{
+    color: white;
+    font-weight: bold;
+}
+
+.retour {
+    /*white-space: pre-line;*/
+    width: 70%;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+/*Css nico*/
+
+.content {
+    section {
+        h3 {
+            font-size: 32px;
+        }
+    }
+}
+
+.bg-lune2 {
+    background-image: url(asset\ document/planeteDoc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+ p{
+    color: #fff !important;
+  }
+}
+
+li {
+    color: white !important;
+}
+

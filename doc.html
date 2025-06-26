@@ -5,11 +5,450 @@
     <meta name="viewport" content="width=device-width" />
     <title>Projet - Documentation</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="doc.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="doc.css" />
   </head>
 
   <body>
-    <a href="/index.html">Accueil</a>
-    Documentation
+    <!-- Header -->
+    <header class="flex alignEnd">
+      <nav class="">
+        <ul class="flex gap">
+          <li><a href="index.html">ACCUEIL</a></li>
+          <li><a href="">DOCUMENTATION</a></li>
+          <li><a href="">AVIS</a></li>
+          <li><a href="">JEUX</a></li>
+          <li class="btn"><a href="">CONNEXION</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="bg-lune2">
+      <div class="flex justify-center">
+        <h2 class="margin200 text Whitecolor">Documentation</h2>
+      </div>
+      <div class="flex justify-center">
+        <p>
+          votre passeport pour maîtriser l'administratif et gagner en autonomie
+        </p>
+      </div>
+    </section>
+    <div class="flex margin200">
+      <div class="lateral">
+        <nav>
+          <ul>
+            <li><a href="#contexte">Contexte</a></li>
+            <li><a href="#qui">Pour qui ?</a></li>
+            <li><a href="#utilisateur">Utilisateur Type</a></li>
+            <li><a href="#problematique">Problématique</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#test">Tests utilisateurs</a></li>
+            <li><a href="#evolution">Perspective d'évolution</a></li>
+            <li><a href="#application">Prototype</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Le contenu de la page de doc -->
+      <div class="content">
+
+        <!---section contexte-->
+        <section id="contexte">
+       
+            
+            <h3>Contexte</h3>
+      
+            <div class="flex gap">
+              <img src="asset document/dixneufpourcent.png" alt="" class="large-4">
+              <img src="asset document/troissurcinq.png" alt="" class="large-4">
+            </div>
+          <div class="retour">
+            <p>
+              L’inclusion numérique désigne le processus par lequel il est
+              possible de rendre le numérique accessible à tous. Il s’agit alors
+              de transmettre les compétences nécessaires aux individus en étant
+              éloignés, afin que le digital devienne pour eux un levier
+              d’insertion sociale et économique. Aujourd’hui, 3 Français sur 5
+              se disent incapables de réaliser des démarches administratives en
+              ligne et plus de 19 % des Français âgés de plus de 15 ans sont en
+              situation d’illectronisme d’après l’INSEE..
+            </p>
+          </div>
+
+             <div class="margin200">
+          <h3>Problématique générales</h3>
+            <div class="retour bold ">
+              <p style="font-size: 26px;">
+                Promouvoir l’éducation aux nouvelles technologies pour les
+                populations les plus pauvres et vulnérables.
+              </p>
+            </div>
+               </div>
+          
+        </section>
+
+
+        <!-- section Pour qui ?-->
+        <section class="margin200" id="qui">
+          <h3>Pour qui ?</h3>
+          <div class="retour">
+            <p>
+              Notre application / serious game s’adresse aux jeunes de 16 à 25
+              ans qui démarrent dans la vie active , qui ont besoin d’un
+              accompagnement pratique pour gérer leur démarches administratives.
+            </p>
+          </div>
+          <!-- photos Pour qui ?-->
+          <div class="flex gap marginT70">
+            <div class="large-4">
+              <img
+                src="assets/personnes ensemble.png"
+                alt="personnes en groupe"
+                class="responsive"
+              />
+            </div>
+            <div class="large-4">
+              <img
+                src="asset document/serrage main.png"
+                alt="serrage de mains"
+                class="responsive"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- section utilisateur type -->
+        <section class="margin200 " id="utilisateur" >
+          <h3>Utilisateur type</h3>
+          <div class="marginT20">
+          <img src="asset document/persona.jpg" alt="" class="responsive" style="border-radius: 26px;">
+          </div>
+
+          <!-- ici l'image de l'utlisateur type -->
+        </section>
+
+                <!--- section Problématique-->
+
+        <section class="margin200" id="problematique">
+          <h3>Problématique</h3>
+          <div class="retour">
+            <!-- paragraphe Problématique-->
+            <p style="font-size: 26px;">
+              Comment soutenir Léo dans le développement de son autonomie et de
+              sa maturité numérique face à ses démarches administratives?
+            </p>
+          </div>
+          <!-- photos Problématique-->
+          <div class="flex gap marginT70">
+            <div class="large-4">
+              <img
+                src="assets/leo1.png"
+                alt="léo ordinateur"
+                class="responsive"
+              />
+            </div>
+            <div class="large-4">
+              <img
+                src="assets/leo2.png"
+                alt="léo document"
+                class="responsive"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!---Section solution-->
+
+        <section class="margin200" id="solution">
+          <h3>Solution</h3>
+          <div class="retour">
+            <p>
+              Créer un serious game permettant à Léo d’avoir les connaissances
+              nécessaires avant de faire ses démarches administratives.
+            </p>
+          </div>
+          <div>
+            <p>Pourquoi un Serious-game ?</p>
+          </div>
+
+          <div class="retour">
+            <p>
+              Notre tranche d'âge étant de 16 à 25ans, le jeu vidéo est présent
+              dans la vie de tous les jours , cela apporte un aspect rassurant à
+              notre utilisateur. Grace à notre application sous forme de mini
+              jeu , il développe son autonomie. Quant à notre forum , il lui
+              permet un accès à volonté à des questions réponses avec d’autres
+              utilisateurs.
+            </p>
+          </div>
+        </section>
+
+        <!-- section User Flow-->
+
+        <section class="margin200">
+          <div>
+            <h3>User flow</h3>
+          </div>
+          <div class="retour">
+            <p>
+              Léo 22 ans fraichement diplomé d’un bts rentre dans la vie active
+              avec son premier appartement . Il doit faire une demande d’APL ,
+              ne sachant pas faire il décide d’ouvrir son application LIFEUP
+              pour en savoir plus.
+            </p>
+          </div>
+
+          <div class="flex">
+            <img
+              src="asset document/userflow.png"
+              alt="userflow"
+              class="responsive"
+            />
+          </div>
+        </section>
+
+        <!--Section Wireframe-->
+        <section class="margin200">
+          <h3>Wireframe</h3>
+          <div class="retour">
+            <p>
+              C’est une représentation schématique de la structure et des
+              fonctionnalités d’une application mobile ou d’un site web.
+              Dessinées sur papier ou de manière numérique, ces maquettes
+              offrent un degré d’interactivité variable, jouant un rôle
+              essentiel dans la conception d’interfaces.
+            </p>
+          </div>
+          <div class="flex gap marginT30">
+            <img
+              src="asset document/wireframe 1 1.png"
+              alt="wireframe 1"
+              class="W20"
+            />
+            <img
+              src="asset document/wireframe2 1.png"
+              alt="wireframe 2"
+              class="W20"
+            />
+            <img
+              src="asset document/wireframe3 1.png"
+              alt="wireframe 3"
+              class="W20"
+            />
+            <img
+              src="asset document/wireframe 4.png"
+              alt="wireframe 4"
+              class="W20"
+            />
+          </div>
+        </section>
+
+        <!--Section mid-fi -->
+        <section class="margin200">
+          <h3>Mid-fi</h3>
+          <div class="retour">
+            <p>
+              Pour aboutir au résultat final de notre application, nous avons
+              d'abord rassemblé l’ensemble de nos idées. Cette mise en commun
+              nous a permis de définir une direction claire et de faire évoluer
+              le projet de manière progressive jusqu'à sa finalisation.
+            </p>
+          </div>
+
+          <div class="flex gap marginT30">
+            <img
+              src="asset document/mid fi acceuil 1.png"
+              alt="Acceuil"
+              class="W20"
+            />
+            <img
+              src="asset document/mid fi didac 1.png"
+              alt="didactoriel"
+              class="W20"
+            />
+            <img
+              src="asset document/mid fi jeux 1.png"
+              alt="mini-jeux"
+              class="W20"
+            />
+            <img
+              src="asset document/mid fi logeme,nt 1.png"
+              alt="inventaire"
+              class="W20"
+            />
+          </div>
+        </section>
+
+        <!--Section high fi-->
+
+        <section class="margin200">
+          <h3>High-fi</h3>
+          <div class="flex gap marginT30">
+            <img
+              src="asset document/acceuil high fi 1-1.png"
+              alt="Acceuil high fi"
+              class="W20"
+            />
+            <img
+              src="asset document/didactoriel high fki 1.png"
+              alt="dicatoriel high fi"
+              class="W20"
+            />
+            <img
+              src="asset document/mini_quiz hight fit 1.png"
+              alt=" mini jeux high fi"
+              class="W20"
+            />
+            <img
+              src="asset document/inventaire high gi 1.png"
+              alt=" inventaire high fi"
+              class="W20"
+            />
+          </div>
+        </section>
+
+        <!--Section Test utilisateur-->
+        <section class="margin200" id="test">
+          <h3>Tests utilisateurs</h3>
+          <div class="retour marginT30">
+            <p>
+              Suite aux avis des personnes que l'on a interrogé sur le déroulé
+              et l'esthétique de notre application, voici les modifications que
+              nous avons apportés :
+            </p>
+          </div>
+
+          <div class="retour marginT30">
+            <h4 class="white">Amélioration 1:</h4>
+            <p>Revoir l’accueil pour rendre l’objectif clair dès
+            les premières secondes.</p>
+            </p>
+          </div>
+          <div class="flex gap marginT30">
+            <div class="W20">
+              <h5 class="white">Accueil avant</h5>
+              <img
+              src="asset document/acceuil high fi 1-1.png"
+              alt="Acceuil high fi avant"
+              class="responsive"
+              />
+            </div>
+            <div class="W20">
+              <h5 class="white">Accueil après</h5>
+               <img
+              src="asset document/accueilplanetesfinal.jpg"
+              alt="Acceuil hig fi après"
+              class="responsive"
+            />
+            </div>
+          </div>
+        </section>
+
+        <section class="margin200">
+          <div class="retour">
+            <h4>Amélioration 2:</h4>
+            <p>Dans l'inventaire nos utilisateurs ont trouvés que
+            les cases étaient trop petites. Nous avons donc fait le choix de
+            les mettre 3 par ligne afin de gagner en visibilité. Ainsi que d'inscrire le nom du document attendu</p>
+          </div>
+          <div class="flex gap marginT30">
+            <div class="W20"> 
+              <h5>Inventaire avant</h5>
+              <img
+              src="asset document/inventaire high gi 1-1.png"
+              alt=" Inventaire avant test"
+              class="responsive"/>
+            </div>
+            <div class="W20">
+              <h5>Inventaire après</h4>
+              <!-- image à changer -->
+              <img
+              src="asset document/inventaireFINAL.png"
+              alt="inventaire après test"
+              class="responsive"/>
+            </div>
+          </div>
+
+          <div class="retour marginT70 maringB20">
+           
+             <h4>Amélioration3:</h4>
+              <p>Le niveau 3 n’étant pas présent l’utilisateur ne
+              connaisait pas son niveau dans le jeux. Nous avons donc décidé de
+              l’integrer sur chaque page en face de l’XP de notre personnage.</p>
+            </p>
+          </div>
+          <div class="flex gap marginT30">
+            <div class="W20">
+              <h5>XP avant</h5>
+              <img
+              src="asset document/Xp avant  1.png"
+              alt=" Xp avant test"
+              class="responsive"
+              />
+            </div>
+            <div class="W20">
+              <h5>XP après</h5>
+              <img
+              src="asset document/xp et niveau personnage 1.png"
+              alt="xp et niveau après test"
+              class="responsive"
+            />
+            </div>
+            
+          </div>
+          <!-- Changmeent du popup de recompense -->
+           <div class="retour marginT70 maringB20">
+            <h4>Amélioration4:</h4>
+            <p>Nous avons gamifié le popup qui montre les recompenses reçues apres le mini jeu, pour le rendre plus agréable et dans l'esprit d'un jeu</p>
+            
+          </div>
+          <div class="flex gap marginT30">
+            <div class="W20">
+              <h5>Popup avant</h5>
+              <img
+              src="asset document/BravoHightFI.png"
+              alt=" Xp avant test"
+              class="responsive"
+              />
+            </div>
+            <div class="W20">
+              <h5>Popup après</h5>
+              <img
+              src="asset document/miniquiz.png"
+              alt="xp et niveau après test"
+              class="responsive"
+            />
+            </div>
+            
+          </div>
+        </section>
+
+        <!--section perspective d'Evolution-->
+        <section class="margin200" id="evolution">
+          <div class="retour white">
+
+              <h3>Perspective d'évolution</h3>
+              <p>Dans un futur proche, et suite à une levée de fonds, nous souhaitons ajouter:
+</p>
+          
+             
+
+             <ul class="white">
+              <li>Ajout de langues étrangères (anglais, espagnol…)</li>
+              <li>Extension des démarches administratives</li>
+              <li>Mises à jour automatisées selon lois et réformes</li>
+              <li>Renforcer le forum et la cohésion communautaire</li>
+              </ul>
+            </div>
+
+
+        </section>
+        <!--Section Application -->
+        <section class="margin200" id="application">
+
+               <h3>Prototype</h3>
+               <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/c7WBvIUob6cpUJ506GFNCH/Projet-Life-UP---Amelie-Lila-Elias?page-id=1%3A6612&node-id=95-6675&viewport=-11188%2C-1391%2C0.55&scaling=scale-down&content-scaling=fixed&starting-point-node-id=95%3A6675&embed-host=share" allowfullscreen></iframe>
+
+        </section>
+      </div>
+    </div>
+    <script src="script.js" defer></script>
   </body>
 </html>

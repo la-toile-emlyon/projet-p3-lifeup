@@ -1,16 +1,190 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Projet - Page d'accueil</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="index.css" rel="stylesheet" type="text/css" />
-    <script src="script.js" type="text/javascript"></script>
-  </head>
 
-  <body>
-    Accueil
-    <a href="/doc.html">Documentation</a>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Projet - Page d'accueil</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="flex alignEnd">
+    <nav class="small-12">
+      <ul class="flex gap">
+        <li><a href="doc.html">DOCUMENTATION</a></li>
+        <li><a href="">AVIS</a></li>
+        <li><a href="">JEUX</a></li>
+        <li class="btn"><a href="">CONNEXION</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- Main -->
+  <main class="container">
+
+
+
+    <!-- Section Hero -->
+
+    <section class="hero container">
+      <div class="bgLune">
+        <div>
+          <h2>LIFE UP</h2>
+          <h1>Votre passeport pour maîtriser l'administratif et gagner en autonomie</h1>
+        </div>
+
+        <div class="icon">
+          <img src="assets/iconApple.svg" alt="telecharger sur l'app store">
+          <img src="assets/iconGoogle.svg" alt="telecharger sur google play">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- section Parcours -->
+    <section class="content flex align-center marginT70">
+
+      <div class="large-6 small-12" data-aos="fade-right" data-aos-duration="1500">
+        <img class="responsive" src="assets/mockup.png" alt="">
+      </div>
+
+      <div class="large-6 small-12" data-aos="fade-left" data-aos-duration="1500">
+        <h3>Un parcours unique a travers <br> l'espace de l’administration</h3>
+        <p>Explores de nouveaux horizons, <br> découvres et apprends, gagnes des <br> équipements!</p>
+      </div>
+
+    </section>
+
+
+    <!-- section Mini-Jeu -->
+    <section class="content flex align-center marginT70">
+
+      <div class="large-6 small-12" data-aos="fade-right" data-aos-duration="1500">
+        <h3>Des mini jeux pour que l’univers de l’administratif n’est plus de secret pour toi !</h3>
+        <p>Tout savoir sur l’administration française, en t’amusant.
+          Réalises des missions ,augmentes ton XP et gagnes en niveau !</p>
+      </div>
+
+      <div class="large-6 small-12" data-aos="fade-left" data-aos-duration="1500">
+        <img class="responsive" src="assets/tinder.png" alt="">
+      </div>
+
+    </section>
+
+    <!-- section Coffre & Robot -->
+    <section class="content flex marginT70 bgRobot">
+
+      <div class="large-6 small-12" data-aos="fade-right" data-aos-duration="1500">
+        <img class="responsive" src="assets/coffreNumerique.png" alt="">
+      </div>
+
+      <div class="large-6 small-12 marginT200" data-aos="fade-left" data-aos-duration="1500">
+        <h3>Le coffre numérique , ton outils indispensable pour retrouver tes documents facilement</h3>
+        <p>grâce à moi Proton , tes dossiers sont en sécurités ! Plus besoin de chercher durant des heures pour trouver
+          1 dossier</p>
+
+
+      </div>
+
+
+    </section>
+
+
+    <!-- section Avis -->
+    <section class="marginT70 container-1000 sectionAvis">
+
+      <div class="large-6 small-12">
+        <h3>Nos explorateurs en parlent le mieux</h3>
+      </div>
+
+      <div class="flex justify-between marginT70">
+        <!-- Avis 1 -->
+        <div class="large-3 avis">
+          <div>
+            <img src="assets/Avis1.png" alt="">
+            <h4>Victor</h4>
+            <p>le jeux est super
+              grâce a proton j’arrive à
+              faire une déclaration caf!</p>
+          </div>
+        </div>
+
+        <!-- Avis 2 -->
+        <div class="large-3 avis">
+          <div>
+            <img src="assets/Avis2.png" alt="">
+            <h4>Marie</h4>
+            <p>Les minis jeux sont top! J’aime avoir un
+              accès au forum!</p>
+          </div>
+        </div>
+
+        <!-- Avis 3 -->
+        <div class="large-3 avis">
+          <div>
+            <img src="assets/Avis3.png" alt="">
+            <h4>André</h4>
+            <p>Avoir son coffre numérique directement sur l’application : un gain de temps !</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <div class="glass">
+      <div class="scrolling">
+        <div class="inner-scrolling"></div>
+      </div>
+    </div>
+
+
+  </main>
+
+  <!-- Footer -->
+
+  <footer class="container-1000 marginT70">
+
+    <div class="icon flex justify-center">
+      <h2 class="large-12 flex justify-center">Prêt à nous rejoindre dans l'aventure ?</h2>
+      <img src="assets/iconApple.svg" alt="telecharger sur l'app store">
+      <img src="assets/iconGoogle.svg" alt="telecharger sur google play">
+    </div>
+
+
+    <div class="flex justify-between marginT20 aPropos large-6">
+      <p>A propos de nous</p>
+      <p>Jeux</p>
+      <p>Avis</p>
+      <p>Documentation</p>
+    </div>
+
+
+    <div class="marginT20 flex justify-between term">
+      <p>
+        © 2025 LifeUp. All rights reserved.
+      </p>
+
+      <div class="flex gap">
+        <p>Terms of Service</p>
+        <p>Privacy Policy</p>
+      </div>
+    </div>
+
+
+
+
+
+  </footer>
+
+  <div class="marginT200">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio adipisci est quidem illum! </div>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
